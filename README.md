@@ -18,6 +18,7 @@
 ・Illustrator CC 2023<br>
 ・Adobe XD CC 2023<br>
 ・Visual Studio Code<br>
+・画像はUnsplash（<a href="https://unsplash.com/ja">https://unsplash.com/ja</a>）、Pixabay（<a href="https://pixabay.com">https://pixabay.com</a>）を使用
 <br>
 <b>開発言語</b><br>
 HTML5, CSS3, jQuery<br>
