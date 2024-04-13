@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devide-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=yes">
+    <title>Cafe Hinata</title>
+    <script src="https://kit.fontawesome.com/9f95677876.js" crossorigin="anonymous"></script>
+    <script src="common/js/script.js" defer></script>
+    <link rel="stylesheet" href="common/css/style.css">
+</head>
+<body>
+    <header>
+        <div id="headerContainer">
+            <div id="logo">
+                <img src="common/logo.png" width="267px" height="100px" alt="ロゴ">
+            </div>
+            <div id="headerMenu">
+                <nav class="globalNavi">
+                    <ul>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#menu">MENU</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <ul class="sns">
+                        <li><a href="instagram"><i class="fa-brands fa-instagram fa-2x" style="color: #fff;"></i></a></li>
+                        <li><a href="facebook"><i class="fa-brands fa-facebook fa-2x" style="color: #fff;"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="mainImgs">
+            <img src="images/mainphoto.png" alt="メイン画像">
+            <div id="btn_wrapper">
+                <button id="btn"><a href="#">Book a Table</a></button>
+            </div>
+        </div>
+        <div class="form_hidden">
+            <form action="#" method="post">
+                名前<input id="name" type="text"><br>
+                電話番号<input id="tel" type="tel"><br>
+                日付<input id="date" type="date"><br>
+                時間<select name="time" id="time">
+                    <option value="10:00">10:00-11:00</option>
+                    <option value="11:00">11:00-12:00</option>
+                    <option value="12:00">12:00-13:00</option>
+                    <option value="13:00">13:00-14:00</option>
+                    <option value="14:00">14:00-15:00</option>
+                    <option value="15:00">15:00-16:00</option>
+                </select>
+                <div id="book_wrapper">
+                    <input type="submit" value="予約する">
+                </div>    
+            </form>
+        </div>
+        <div id="mainContainer">
+            <div id="about">
+                <div class="left_about_title">
+                    <h2><em>ABOUT</em></h2>
+                    <img src="images/about_left.png" alt="aboutPhoto1">
+                </div>
+                <div class="right_about_content">
+                    <img src="images/about_right.png" alt="aboutPhoto2">
+                    <div id="description">
+                        <p>
+                            「あたたかくて心地よい、そんな陽の光に照らされているような、落ち着いたひとときを」<br>カフェ Hinataはそんな思いを込めて作られました。<br>コーヒーは店主自ら厳選した自家焙煎の豆を使用しており、こだわりのクロワッサンは試行錯誤を経て今のレシピに辿り着きました。<br>ゆったりと時間の流れる空間で、美味しいコーヒーとスイーツ、可愛い看板猫「とら」に囲まれながら、癒されませんか？
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="menu">
+                <div class="left_menu">
+                    <img src="images/menu_left.png" alt="menuPhoto1">
+                </div>
+                <div class="right_menu">
+                    <h2><em>MENU</em></h2>
+                    <img src="images/menuPhotocoffee.png" alt="menuPhoto2">
+                    <div id="menu_content">
+                        <div id="drink">
+                            <h3>DRINK</h3>
+                            <div id="drink_lists">
+                                <p>エスプレッソ＊<br>エスプレッソマキアート<br>アメリカーノ＊<br>カフェラテ<br><br>オレンジジュース＊<br>アップルジュース＊<br>季節の野菜ジュース</p>
+                                <p>￥５００<br>￥６００<br>￥５００<br>￥６００<br><br>￥４００<br>￥４００<br>￥５００</p>
+                            </div>
+                        </div>
+                        <div id="foods">
+                            <h3>FOODS</h3>
+                            <div id="foods_lists">
+                                <p>クロワッサン<br>チーズケーキ<br>季節のタルト</p>
+                                <p>￥３００　セット￥６００<br>￥５００　セット￥８００<br>￥５００　セット￥８００</p>
+                            </div>
+                            <p id="set_descrip">セットは＊のドリンクの中から１つお選びください</p>
+                        </div>
+                    </div>
+                    <div id="foods"></div>
+                </div>
+            </div>
+            <div id="contact">
+                <div class="left_contact">
+                    <h2><em>CONTACT</em></h2>
+                    <h3>Address</h3>
+                    <p>日本、〒730-8501 広島県広島市中区基町６−２７</p>
+                    <h3>Opening hours</h3>
+                    <p>Weekdays(Mon-Fri) 8:00-20:00<br>Sat 10:00-18:00<br>Sun closed</p>
+                </div>
+                <div class="right_contact">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3292.250892583899!2d132.45489993855097!3d34.39496835976664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355aa20bfac4b21f%3A0x87c6f6f8e75a5853!2z44Gd44GU44GG5bqD5bO25bqX!5e0!3m2!1sja!2snl!4v1694942227828!5m2!1sja!2snl"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footerContainer">
+            <p>COPY RIGHT©2023 Cafe Hinata, ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>  
+</body>
+</html>
