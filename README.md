@@ -7,9 +7,9 @@
 <b>実装項目</b><br>
 ・ページのデザイン<br>
 ・固定ヘッダーのグローバルナビゲーション。各項目をクリックすると目的位置までスクロール。<br>
-・グローバルナビゲーションの各項目にホバーするとテキストの不透明が下がる。<br>
-・<br>
-・iframeを用いて地図を埋め込み<br>
+・グローバルナビゲーションの各項目にホバーするとテキストの不透明度が下がる。<br>
+・formタグで予約画面作成<br>
+・iframeタグで地図を埋め込み<br>
 <br>
 <b>制作期間</b><br>
 約3週間<br>
@@ -21,9 +21,9 @@
 ・Visual Studio Code<br>
 <br>
 <b>参考</b><br>
-・デザインはを参考に作成。
-・画像はUnsplash（<a href="https://unsplash.com/ja">https://unsplash.com/ja</a>）、Pixabay（<a href="https://pixabay.com">https://pixabay.com</a>）を使用し、編集。
+・デザインはRestaurant Mesón (<a href="https://restomeson.com">https://restomeson.com<a>)を参考に作成。<br>
+・画像はUnsplash（<a href="https://unsplash.com/ja">https://unsplash.com/ja</a>）、Pixabay（<a href="https://pixabay.com">https://pixabay.com</a>）を使用し、編集。<br>
 <br>
 <b>開発言語</b><br>
-HTML5, CSS3<br>
+HTML5, CSS3, JavaScript<br>
 
